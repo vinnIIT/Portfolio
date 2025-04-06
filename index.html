@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h2>My Portfolio</h2>
+                <div class="nav_menu">
+                    <a href="#home">Home</a>
+                    <a href="#skill">Skills</a>
+                    <a href="#project">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </header>
+        <section id="home">
+            <div class="self">
+                <h5>I'm</h5>
+                <h1>Vineet Sharma</h1>
+                <p>Frontend Developer</p>
+            </div>
+            <div class="aboutbox">
+                <p>Hi, I'm Vineet, a passionate Frontend Developer. With a strong foundation in HTML, CSS and JavaScript modern styling frameworks, I can design clean, responsive, and visually appealing web experiences.
+                I focus on creating engaging web pages. I am always eager to learn new technologies, optimize performance, and enhance user experiences with the latest CSS frameworks & best practices.
+                </p>
+
+            </div>
+            <div class="cntactBtn">
+                <a href="Vineet-Sharma-FlowCV-Resume-20250326.pdf" download="Vineet_Sharma_CV.pdf" class="btn btn-primary">
+                    <button>Download CV</button>
+                </a>
+                <a href="#contact" class="hire_me"><button>Hire Me</button></a>
+            </div>
+        </section>
+
+<!-- Skill Details -->
+        <section id="skill">
+            <div class="skillarea">
+                <h1>Skills</h1>
+                <div class="card_container">
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img class="python" src="Python-logo-notext.svg.png" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img src="React.webp" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-css3-logo-icon-download-in-svg-png-gif-file-formats--css-programming-langugae-language-pack-logos-icons-1175237.png" alt="">
+                           
+                        </div>
+                    </div>
+                    <div class="skillcard">
+                        <div class="upparIMG">
+                            <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Project Details -->
+        <section id="project">
+            <div class="ProjectHead">
+                <h1>Projects</h1>
+                <div class="Project_card_container">
+                    <div class="ProjectCard">
+                        <div class="upper_secTIonIMG">
+                            <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-109432580/109432580.jpg" alt="xyz">
+                        </div>
+                        <div class="lower_secTIonConTEnt">
+                            <h3>Project 1</h3>
+                            <h4>Travoire - Blog Website</h4>
+                            <p>Tech:- HTML, CSS & JavaScript</p>
+                            <button><a href="https://vinniit.github.io/Travoire---Blog-Webpage/" target="_blank">View Project</a></button>
+                        </div>
+                    </div>
+
+                    <div class="ProjectCard">
+                        <div class="upper_secTIonIMG">
+                            <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-109432580/109432580.jpg" alt="xyz">
+                        </div>
+                        <div class="lower_secTIonConTEnt">
+                            <h3>Project 2</h3>
+                            <h4>COMING SOON</h4>
+                            <p>Tech:- _</p>
+                            <button><a href="#">View Project</a></button>
+                        </div>
+                    </div>
+
+                    <div class="ProjectCard">
+                        <div class="upper_secTIonIMG">
+                            <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-109432580/109432580.jpg" alt="xyz">
+                        </div>
+                        <div class="lower_secTIonConTEnt">
+                            <h3>Project 3</h3>
+                            <h4>COMING SOON</h4>
+                            <p>Tech:- _</p>
+                            <button><a href="#">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+
+    <section id="contact">
+        <footer>
+            <div class="contact_info">
+                <h1>Let's Connect</h1>
+                <form id="contact_form">
+                    <label for="name"></label>
+                    <input class="Name" type="text" name="name" id="name" placeholder="FULL NAME" required>
+    
+                    <label for="email"></label>
+                    <input class="Email" type="email" name="email" id="email" placeholder="Email ID" required>
+    
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Message" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                    <h2>OR</h2>
+    
+                    <div id="image_info">
+                        <a href="https://www.gmail.com" target="_blank"><img src="https://img.icons8.com/color/512/gmail-new.png" alt="" class="gmail"></a>
+    
+                        <a href="https://www.linkedin.com/in/vineet-sharma-8484b5232/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="" class="linkedIn"></a>
+    
+                        <a href="https://github.com/vinnIIT" target="_blank"><img src="https://freepnglogo.com/images/all_img/github-logo-white-stroke-2a6c.png" alt="" class="git"></a>
+                    </div>
+                </form>          
+            </div>
+    
+        </footer>
+    </section>
+    <div class="final_footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("contact_form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        console.log("We got your message! ✅");
+
+        emailjs.init("ljdD-OMegI44wTAT-");
+
+        let params = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+        };
+
+        console.log("Sending data:", params);
+
+        emailjs.send("service_rrl40ft", "template_xwl76lh", params)
+            .then(function (response) {
+                console.log("We received your message Successfully!", response);
+                alert("Message Successfully! ✅");
+            }, function (error) {
+                console.error("Failed to send message:", error);
+                alert("Failed to send message. ❌ Check Console for details.");
+            });
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contact_form");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // form page reload na kare
+      // yahan aap form data bhejne ka code likh sakte hain, abhi sirf reset kar rahe hain
+      alert("Form submitted successfully!");
+      form.reset(); // form fields reset ho jayenge
+    });
+  });
+    </script>
+</body>
+</html>
